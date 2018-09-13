@@ -1,5 +1,5 @@
 :root {
-  --yellow: #ffc600;
+  --color: #58045f;
 }
 
 html {
@@ -16,9 +16,9 @@ body {
   /* height: 100vh; */
   padding: 30px;
   margin: 0;
-  border: 20px solid var(--yellow);
+  border: 20px solid var(--color);
   background: #99999900;
-  color: #020202;
+  color: #242424;
   line-height: 20px;
   font-weight: 100;
   min-width: 700px;
@@ -42,7 +42,7 @@ h3:before, h3:after {
   display: block;
   content: '';
   height: 10px;
-  background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+  background: linear-gradient(to var(--direction, left), var(--color), transparent);
 }
 
 h3:after {
@@ -82,7 +82,8 @@ span.other-names {
 progress {
   width: 200px;
   height: 10px;
-  background-color: green;
+  background-color: rgba(42, 121, 19, 0.514);
+  /* color: rgb(78, 8, 148); */
   /* border: 1px solid;
   border-radius: 5px; */
 }
@@ -120,23 +121,36 @@ progress {
 
 .work-experience {
   padding: 10px;
+  margin-bottom: 175px;
 }
 
 .referees p {
-  margin-bottom: 218px;
+  margin-bottom: 36px;
 }
 
 
 hr {
   margin-left: -30px;
   margin-right: -30px;
-  border: 20px solid var(--yellow);
+  border: 20px solid var(--color);
+}
+
+.side-projects {
+  height: 200px;
 }
 
 
 @media all and (max-width: 900px) {
   .name {
     font-size: 2em;
+    letter-spacing: -3px;
+  }
+
+}
+
+@media all and (max-width: 700px) {
+  .name {
+    font-size: 1.4em;
     letter-spacing: -3px;
   }
 
