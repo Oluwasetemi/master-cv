@@ -121,11 +121,11 @@ progress {
 
 .work-experience {
   padding: 10px;
-  margin-bottom: 175px;
+  margin-bottom: 155px;
 }
 
 .referees p {
-  margin-bottom: 36px;
+  margin-bottom: 3px;
 }
 
 
@@ -136,7 +136,16 @@ hr {
 }
 
 .side-projects {
-  height: 200px;
+  height: 190px;
+}
+
+.side-projects a {
+  text-decoration: none;
+  color: #242424;
+}
+
+.side-projects p {
+  line-height: 12px;
 }
 
 
@@ -152,6 +161,10 @@ hr {
   .name {
     font-size: 1.4em;
     letter-spacing: -3px;
+  }
+
+  .side-projects p {
+    font-size: .8em;
   }
 
 }
