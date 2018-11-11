@@ -1,5 +1,7 @@
 :root {
   --color: #58045f;
+  --header: 'Lora', serif;
+  --general: 'Josefin Sans', Ubuntu, sans-serif;
 }
 
 html {
@@ -22,11 +24,13 @@ body {
   line-height: 20px;
   font-weight: 100;
   min-width: 700px;
+  font-family: var(--general);
 }
 
 ::selection {
   background-color: magenta;
   caret-color: green;
+  font-style: italic;
 }
 
 h3 {
@@ -35,7 +39,7 @@ h3 {
   grid-gap: 20px;
   align-items: center;
   font-weight: normal;
-
+  font-family: var(--header);
 }
 
 h3:before, h3:after {
@@ -104,7 +108,8 @@ progress {
 
 .education h5 {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
+  font-family: var(--header);
 }
 
 .technical-skills {
