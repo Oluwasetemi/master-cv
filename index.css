@@ -40,6 +40,7 @@ h3 {
   align-items: center;
   font-weight: normal;
   font-family: var(--header);
+  margin: 15px 0;
 }
 
 h3:before, h3:after {
@@ -126,11 +127,12 @@ progress {
 
 .work-experience {
   padding: 10px;
-  margin-bottom: 155px;
+  margin-bottom: 178px;
 }
 
 .referees p {
-  margin-bottom: 3px;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 
