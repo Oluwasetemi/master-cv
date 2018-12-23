@@ -1,5 +1,6 @@
 :root {
-  --color: #58045f;
+  --color: #800080;
+  --text: #242424;
   --header: 'Lora', serif;
   --general: 'Josefin Sans', Ubuntu, sans-serif;
 }
@@ -20,7 +21,7 @@ body {
   margin: 0;
   border: 20px solid var(--color);
   background: #99999900;
-  color: #242424;
+  color: var(--text);
   line-height: 20px;
   font-weight: 100;
   min-width: 700px;
@@ -75,7 +76,7 @@ span.other-names {
   font-style: italic;
   line-height: 0.2em;
   padding: 10px;
-
+  margin-bottom: -30px;
 }
 
 .front-end_item {
@@ -127,11 +128,11 @@ progress {
 
 .work-experience {
   padding: 10px;
-  margin-bottom: 178px;
+  margin-bottom: 120px;
 }
 
 .referees p {
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   margin-top: 5px;
 }
 
@@ -148,7 +149,7 @@ hr {
 
 .side-projects a {
   text-decoration: none;
-  color: #242424;
+  color: var(--text);
 }
 
 .side-projects p {
