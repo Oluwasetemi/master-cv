@@ -72,10 +72,10 @@ span.other-names {
 
 .info {
   text-align: right;
-  font-variant: small-caps;
   font-style: italic;
   line-height: 0.2em;
   padding: 10px;
+
 }
 
 .front-end_item {
@@ -153,6 +153,17 @@ hr {
 
 .side-projects p {
   line-height: 12px;
+}
+
+.github>img, .linked-in>img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.github a, .linked-in a {
+  text-decoration: none;
 }
 
 
