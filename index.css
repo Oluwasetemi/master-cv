@@ -47,7 +47,7 @@ h3 {
 h3:before, h3:after {
   display: block;
   content: '';
-  height: 10px;
+  height: 5px;
   background: linear-gradient(to var(--direction, left), var(--color), transparent);
 }
 
@@ -128,7 +128,7 @@ progress {
 
 .work-experience {
   padding: 10px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .referees p {
@@ -138,8 +138,8 @@ progress {
 
 
 hr {
-  margin-left: -30px;
-  margin-right: -30px;
+  margin-left: -40px;
+  margin-right: -40px;
   border: 20px solid var(--color);
 }
 
