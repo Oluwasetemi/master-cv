@@ -79,7 +79,7 @@ span.other-names {
     font-style: italic;
     line-height: 0.2em;
     padding: 10px;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
 }
 
 .front-end_item {
@@ -194,5 +194,5 @@ hr {
 }
 
 .last {
-    margin-bottom: 131px;
+    margin-bottom: 121px;
 }
