@@ -88,6 +88,12 @@ span.other-names {
     grid-template-columns: 100px 2fr 20px;
 }
 
+.front-end_longItem {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 2fr 50px;
+}
+
 progress {
     width: 200px;
     height: 10px;
