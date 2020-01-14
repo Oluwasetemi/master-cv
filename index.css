@@ -1,5 +1,5 @@
 :root {
-    --color: #663399;
+    --color: rgba(255, 136, 0, 1);
     --text: #181515;
     --header: 'Lora', serif;
     --general: 'Josefin Sans', Ubuntu, sans-serif;
@@ -125,7 +125,7 @@ progress {
 
 .technical-skills {
     line-height: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 21px;
 }
 
 .personal-summary {
