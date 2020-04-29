@@ -125,7 +125,7 @@ progress {
 
 .technical-skills {
 	line-height: 5px;
-	margin-bottom: 21px;
+	margin-bottom: -1px;
 }
 
 .personal-summary {
@@ -167,7 +167,7 @@ hr {
 }
 
 .last {
-	margin-bottom: 80px;
+	margin-bottom: 65px;
 }
 
 mark.highlight {
