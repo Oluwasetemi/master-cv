@@ -149,7 +149,7 @@ progress {
 
 hr {
     margin-left: -40px;
-    margin-top: 105px;
+    margin-top: 50px;
     margin-right: -40px;
     border: 20px solid var(--color);
 }
@@ -168,7 +168,7 @@ hr {
 }
 
 .last {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 
 mark.highlight {
