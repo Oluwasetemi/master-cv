@@ -1,215 +1,216 @@
 :root {
-    --color: #966fdb;
-    --text: #181515;
-    --header: 'Lora', serif;
-    --general: 'Josefin Sans', Ubuntu, sans-serif;
+	--color: #966fdb;
+	--text: #181515;
+	--header: 'Lora', serif;
+	--general: 'Josefin Sans', Ubuntu, sans-serif;
 }
 
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
-    /* height: 100vh; */
-    padding: 30px 30px 0 20px;
-    margin: 0;
-    border: 20px solid var(--color);
-    background: #99999900;
-    color: var(--text);
-    line-height: 20px;
-    font-weight: 100;
-    min-width: 700px;
-    font-family: var(--general);
+	/* height: 100vh; */
+	padding: 30px 30px 0 20px;
+	margin: 0;
+	border: 20px solid var(--color);
+	background: #99999900;
+	color: var(--text);
+	line-height: 20px;
+	font-weight: 100;
+	min-width: 700px;
+	font-family: var(--general);
 }
 
 ::selection {
-    background-color: magenta;
-    caret-color: green;
-    font-style: italic;
+	background-color: magenta;
+	caret-color: green;
+	font-style: italic;
 }
 
 h3 {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-gap: 20px;
-    align-items: center;
-    font-weight: normal;
-    font-family: var(--header);
-    margin: 0;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	font-weight: normal;
+	font-family: var(--header);
+	margin: 0;
 }
 
 h3:before,
 h3:after {
-    display: block;
-    content: '';
-    height: 5px;
-    background: linear-gradient(
-        to var(--direction, left),
-        var(--color),
-        transparent
-    );
+	display: block;
+	content: '';
+	height: 5px;
+	background: linear-gradient(
+		to var(--direction, left),
+		var(--color),
+		transparent
+	);
 }
 
 h3:after {
-    --direction: right;
+	--direction: right;
 }
 
 .name {
-    /* display: inline; */
-    font-size: 3em;
-    margin: 0;
-    padding: 0;
-    width: 50vw;
-    letter-spacing: -5px;
+	/* display: inline; */
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
+	width: 50vw;
+	letter-spacing: -5px;
 }
 
 span.other-names {
-    font-style: italic;
-    white-space: nowrap;
+	font-style: italic;
+	white-space: nowrap;
 }
 
 .info {
-    text-align: right;
-    font-style: italic;
-    line-height: 0.2em;
-    padding: 10px;
-    /* margin-bottom: -30px; */
+	text-align: right;
+	font-style: italic;
+	line-height: 0.2em;
+	padding: 10px;
+	/* margin-bottom: -30px; */
 }
 
 .front-end_item {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 100px 2fr 20px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 100px 2fr 20px;
 }
 
 .front-end_longItem {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 200px 2fr 50px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 200px 2fr 50px;
 }
 
 progress {
-    width: 200px;
-    height: 10px;
-    background-color: rgba(42, 121, 19, 0.514);
-    /* color: rgb(78, 8, 148); */
-    /* border: 1px solid;
+	width: 200px;
+	height: 10px;
+	background-color: rgba(42, 121, 19, 0.514);
+	/* color: rgb(78, 8, 148); */
+	/* border: 1px solid;
   border-radius: 5px; */
 }
 
 .languages > ul > li {
-    list-style-type: none;
-    /* margin-left: 10px; */
+	list-style-type: none;
+	/* margin-left: 10px; */
 }
 
 .languages > ul > li:before {
-    margin-right: 20px;
-    content: '🔰';
+	margin-right: 20px;
+	content: '🔰';
 }
 
 .education {
-    line-height: 5px;
+	line-height: 5px;
 }
 
 .education h5 {
-    font-size: 15px;
-    font-weight: 500;
-    font-family: var(--header);
+	font-size: 15px;
+	font-weight: 500;
+	font-family: var(--header);
 }
 
 .technical-skills {
-    line-height: 5px;
-    margin-bottom: -1px;
+	line-height: 5px;
+	margin-bottom: -1px;
 }
 
 .personal-summary {
-    padding: 10px;
+	padding: 10px;
 }
 
 .personal-summary p {
-    line-height: 20px;
+	line-height: 20px;
 }
 
 .work-experience {
-    padding: 10px;
-    /* margin-bottom: 20px;
-    margin-top: 15px; */
+	padding: 10px;
+	margin-bottom: 20px;
+	/* margin-top: 15px; */
 }
 
 .referees p {
-    margin-bottom: 7px;
-    margin-top: 5px;
+	margin-bottom: 7px;
+	margin-top: 5px;
 }
 
 hr {
-    margin-left: -40px;
-    margin-top: 50px;
-    margin-right: -40px;
-    border: 20px solid var(--color);
+	margin-left: -40px;
+	margin-top: 80px;
+	margin-right: -40px;
+	border: 20px solid var(--color);
 }
 
 .side-projects {
-    height: 190px;
+	height: 190px;
 }
 
 .side-projects a {
-    text-decoration: none;
-    color: var(--text);
+	text-decoration: none;
+	color: var(--text);
 }
 
 .side-projects p {
-    line-height: 12px;
+	line-height: 12px;
 }
 
 .last {
-    margin-bottom: 22px;
+	margin-top: 25px;
+	margin-bottom: 40px;
 }
 
 mark.highlight {
-    background-color: yellow;
-    color: black;
-    padding: 3px;
-    letter-spacing: -1px;
-    line-height: 20px;
-    font-size: 13px;
-    font-style: italic;
+	background-color: yellow;
+	color: black;
+	padding: 3px;
+	letter-spacing: -1px;
+	line-height: 20px;
+	font-size: 13px;
+	font-style: italic;
 }
 
 .github > img,
 .linked-in > img,
 .codepen > svg {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 3px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 3px;
 }
 
 .github a,
 .linked-in a,
 .codepen a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 @media all and (max-width: 900px) {
-    .name {
-        font-size: 2em;
-        letter-spacing: -3px;
-    }
+	.name {
+		font-size: 2em;
+		letter-spacing: -3px;
+	}
 }
 
 @media all and (max-width: 700px) {
-    .name {
-        font-size: 1.4em;
-        letter-spacing: -3px;
-    }
+	.name {
+		font-size: 1.4em;
+		letter-spacing: -3px;
+	}
 
-    .side-projects p {
-        font-size: 0.8em;
-    }
+	.side-projects p {
+		font-size: 0.8em;
+	}
 }
