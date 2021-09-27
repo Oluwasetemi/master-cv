@@ -125,7 +125,7 @@ progress {
 
 .technical-skills {
 	line-height: 5px;
-	margin-bottom: 65px;
+	margin-bottom: 61px;
 }
 
 .personal-summary {
@@ -138,8 +138,8 @@ progress {
 
 .work-experience {
 	padding: 10px;
-	margin-bottom: 14px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .referees p {
@@ -149,7 +149,7 @@ progress {
 
 hr {
 	margin-left: -40px;
-	margin-top: 122px;
+	margin-top: 120px;
 	margin-right: -40px;
 	border: 20px solid var(--color);
 }
