@@ -17,7 +17,7 @@ html {
 
 body {
 	/* height: 100vh; */
-	padding: 30px 30px 0 20px;
+	padding: 30px 30px 0 30px;
 	margin: 0;
 	border: 20px solid var(--color);
 	background: #99999900;
@@ -85,13 +85,13 @@ span.other-names {
 .front-end_item {
 	display: grid;
 	align-items: center;
-	grid-template-columns: 100px 2fr 20px;
+	grid-template-columns: 80px 2fr;
 }
 
 .front-end_longItem {
 	display: grid;
 	align-items: center;
-	grid-template-columns: 200px 2fr 50px;
+	grid-template-columns: 210px 2fr;
 }
 
 progress {
@@ -114,6 +114,7 @@ progress {
 }
 
 .education {
+	padding-top: 27px;
 	line-height: 5px;
 }
 
@@ -124,8 +125,15 @@ progress {
 }
 
 .technical-skills {
+	margin-top: 0px;
 	line-height: 5px;
-	margin-bottom: 61px;
+	margin-bottom: 39px;
+}
+
+.technical h4 {
+	font-size: 15px;
+	font-weight: 500;
+	font-family: var(--header);
 }
 
 .personal-summary {
@@ -137,9 +145,14 @@ progress {
 }
 
 .work-experience {
-	padding: 10px;
+	padding-bottom: 10px;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
+}
+
+.latest-experience {
+	display: grid;
+	grid-template-rows: 50px 1fr 1fr 20px;
 }
 
 .referees p {
@@ -149,13 +162,13 @@ progress {
 
 hr {
 	margin-left: -40px;
-	margin-top: 120px;
+	margin-top: 20px;
 	margin-right: -40px;
 	border: 20px solid var(--color);
 }
 
 .side-projects {
-	height: 230px;
+	/* height: 230px; */
 }
 
 .side-projects a {
@@ -189,7 +202,8 @@ mark.highlight {
 
 .github > img,
 .linked-in > img,
-.codepen > svg {
+.codepen > svg,
+.website > svg {
 	width: 20px;
 	height: 20px;
 	position: relative;
