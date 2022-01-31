@@ -5,7 +5,7 @@
 	--general: 'Josefin Sans', Ubuntu, sans-serif;
 }
 
-html {
+/* html {
 	box-sizing: border-box;
 }
 
@@ -13,10 +13,10 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
-}
+} */
 
-body {
-	/* height: 100vh; */
+/* body {
+	height: 100vh;
 	padding: 30px 30px 0 30px;
 	margin: 0;
 	border: 20px solid var(--color);
@@ -26,15 +26,15 @@ body {
 	font-weight: 100;
 	min-width: 700px;
 	font-family: var(--general);
-}
+} */
 
-::selection {
+/* ::selection {
 	background-color: magenta;
 	caret-color: green;
 	font-style: italic;
-}
+} */
 
-h3 {
+/* h3 {
 	display: grid;
 	grid-template-columns: 1fr auto 1fr;
 	grid-gap: 20px;
@@ -42,9 +42,9 @@ h3 {
 	font-weight: normal;
 	font-family: var(--header);
 	margin: 0;
-}
+} */
 
-h3:before,
+/* h3:before,
 h3:after {
 	display: block;
 	content: '';
@@ -54,33 +54,31 @@ h3:after {
 		var(--color),
 		transparent
 	);
-}
+} */
 
-h3:after {
+/* h3:after {
 	--direction: right;
-}
+} */
 
-.name {
-	/* display: inline; */
+/* .name {
 	font-size: 3em;
 	margin: 0;
 	padding: 0;
 	width: 50vw;
 	letter-spacing: -5px;
-}
+} */
 
-span.other-names {
+/* span.other-names {
 	font-style: italic;
 	white-space: nowrap;
-}
+} */
 
-.info {
+/* .info {
 	text-align: right;
 	font-style: italic;
 	line-height: 0.2em;
 	padding: 10px;
-	/* margin-bottom: -30px; */
-}
+} */
 
 .front-end_item {
 	display: grid;
@@ -200,7 +198,7 @@ mark.highlight {
 	font-style: italic;
 }
 
-.github > img,
+/* .github > img,
 .linked-in > img,
 .codepen > svg,
 .website > svg {
@@ -208,22 +206,22 @@ mark.highlight {
 	height: 20px;
 	position: relative;
 	top: 3px;
-}
+} */
 
-.github a,
+/* .github a,
 .linked-in a,
 .codepen a {
 	text-decoration: none;
-}
+} */
 
-@media all and (max-width: 900px) {
+/* @media all and (max-width: 900px) {
 	.name {
 		font-size: 2em;
 		letter-spacing: -3px;
 	}
-}
+} */
 
-@media all and (max-width: 700px) {
+/* @media all and (max-width: 700px) {
 	.name {
 		font-size: 1.4em;
 		letter-spacing: -3px;
@@ -232,4 +230,4 @@ mark.highlight {
 	.side-projects p {
 		font-size: 0.8em;
 	}
-}
+} */

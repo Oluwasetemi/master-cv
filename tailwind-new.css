@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/**
+ * Use this directive to control where Tailwind injects the hover, focus,
+ * responsive, dark mode, and other variants of each class.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+@tailwind variants;
+
+@layer base {
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+	h3 {
+		@apply grid grid-cols-[1fr_auto_1fr] gap-5 items-center text-xl font-normal leading-normal font-header before:h-[6px] before:content-[''] before:block before:bg-gradient-to-l before:from-purple before:to-white after:h-[6px] after:content-[''] after:block after:bg-gradient-to-r after:from-purple after:to-white;
+	}
+	.name {
+		@apply text-5xl m-0 p-0 w-[50vw] tracking-[-5px];
+	}
+}
