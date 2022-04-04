@@ -1,5 +1,6 @@
 :root {
-	--color: #966fdb;
+	--color: #ffffff;
+	/* --color: #f7cac9; */
 	--text: #181515;
 	--header: 'Lora', serif;
 	--general: 'Josefin Sans', Ubuntu, sans-serif;
@@ -83,7 +84,8 @@ span.other-names {
 	/* margin-bottom: -30px; */
 }
 
-.country {
+.country,
+tel {
 	visibility: hidden;
 }
 
