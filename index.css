@@ -65,13 +65,14 @@ h3:after {
 	font-size: 3em;
 	margin: 0;
 	padding: 0;
-	width: 50vw;
-	letter-spacing: -5px;
+	/* width: 70vw; */
+	letter-spacing: 0px;
+	font-family: Lora;
 }
 
 span.other-names {
 	font-style: italic;
-	white-space: nowrap;
+	/* white-space: nowrap; */
 }
 
 .info {
@@ -80,6 +81,10 @@ span.other-names {
 	line-height: 0.2em;
 	padding: 10px;
 	/* margin-bottom: -30px; */
+}
+
+.country {
+	visibility: hidden;
 }
 
 .front-end_item {
@@ -152,7 +157,7 @@ progress {
 
 .latest-experience {
 	display: grid;
-	grid-template-rows: 50px 1fr 1fr 20px;
+	/* grid-template-rows: 20px minimax(200px, 1fr) 1fr 20px; */
 }
 
 .referees p {
@@ -162,7 +167,7 @@ progress {
 
 hr {
 	margin-left: -40px;
-	margin-top: 20px;
+	margin-top: 80px;
 	margin-right: -40px;
 	border: 20px solid var(--color);
 }
@@ -186,7 +191,7 @@ hr {
 }
 
 .last {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
@@ -216,17 +221,21 @@ mark.highlight {
 	text-decoration: none;
 }
 
+.placeholder {
+	margin-top: 0px;
+}
+
 @media all and (max-width: 900px) {
 	.name {
 		font-size: 2em;
-		letter-spacing: -3px;
+		letter-spacing: -1px;
 	}
 }
 
 @media all and (max-width: 700px) {
 	.name {
-		font-size: 1.4em;
-		letter-spacing: -3px;
+		font-size: 1.5em;
+		letter-spacing: -1px;
 	}
 
 	.side-projects p {
